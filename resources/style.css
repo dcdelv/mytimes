@@ -34,5 +34,41 @@ nav span {
 header nav {
   padding-right: 40px;
 }
-
+a {
+  color: black;
+}
 /* BODY */
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  font-size: 17px;
+  color: black;
+}
+
+a {
+  color: black;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+/* Columns */
+.content {
+  display: flex;
+  padding-top: 178px;
+}
+.column-large {
+  width:630px;
+}
+.column-medium {
+  width: 300px;
+}
